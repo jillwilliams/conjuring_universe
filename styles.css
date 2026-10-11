@@ -24,6 +24,7 @@ body {
     box-shadow: 0px 4px 8px orangered;
     transition: 1s;
     color: orangered;
+    margin-top: -20px;
 }
 
 /* the skull imge */
@@ -96,7 +97,6 @@ a {
 
 .navbar.active ul li a {
     color: orangered;
-    
 }
 
 .bottom-container img {
@@ -147,7 +147,6 @@ a {
     margin: 50px;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
 }
 
 .movies-div {
@@ -172,10 +171,16 @@ a {
     margin-right: 40px;
 }
 
+/* text: calender of movies to watch */
+.calender-specifics h3 {
+    font-size: 30px;
+    margin: 15px;
+    text-align: center;
+}
+
 /* table properties */
 table {
     width: 100%;
-    /* border: 1px solid yellow; */
     height: 800px;
     font-size: 30px;
 }
@@ -183,7 +188,6 @@ table {
 /* the cells of the table  */
 table td {
     padding: 15px;
-    
     max-height: 100px;
 }
 
@@ -196,18 +200,12 @@ table th, td {
     border: 1px solid white;
     text-align: right;
     border-collapse: collapse;
-
-
 }
 
 /* the date inside the cell */
 table tr td h4 {
     font-size: 20px;
-
-
 }
-
-
 
 /* title text */
 table tr td h5 {
@@ -215,8 +213,6 @@ table tr td h5 {
     margin-top: -20px;
     color: yellow;
     font-size: 20px;
-
-
 }
 
 table tr td {
